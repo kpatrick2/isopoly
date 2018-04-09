@@ -1,0 +1,792 @@
+page-home {
+    #board {
+        border: 1px solid #ddd; 
+        padding: 0px;
+        margin: 0px;
+        max-width: 850px;
+    }
+
+    #board ion-col{
+        vertical-align: bottom;
+        margin:0px;
+        padding:0px;
+    }
+
+    .app-title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px; 
+        background-color: #e42000;
+        color:#fff;
+        vertical-align: middle;
+    } 
+
+    .title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .title-corner{
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+        vertical-align: middle;
+    }
+
+    .price{
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+        //position: absolute;
+        bottom: 0;
+        width : 100%;
+    }
+    .row-middle {
+        height:60px; 
+         
+    }
+    
+    .row-aside {
+        height:95px;
+    }
+
+    .cell-aside {
+        width:102px; 
+         
+    }
+
+    #cell_0{
+        padding: 0px;
+        border: 1px solid black; 
+    }
+
+    #cell_1 {
+        position: relative;
+        margin: 0px;
+        top: 0px;
+        left: 0px;
+        padding: 0px;
+        border: 1px solid black;
+        border-bottom: 0px solid black;
+        vertical-align: bottom;
+        background-repeat: no-repeat;
+        background-size: auto 40px;
+ 
+    }
+    
+    #cell_1 div {
+        width:10px; 
+        height: 100%;
+        float: right;
+        background: #ff2500;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_2{
+        padding: 0px;
+        border: 1px solid black;
+        border-bottom: 0px solid black;
+  
+    }
+    #cell_2 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #cell_3{        
+        padding: 0px;
+        border: 1px solid black;
+        border-bottom: 0px solid black; 
+    }
+    #cell_3 div {
+        width:10px; 
+        height: 100%;
+        float: right;
+        background: #ff2500;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #cell_4{
+        padding: 0px;
+        border: 1px solid black;
+        border-bottom: 0px solid black;
+ 
+    }
+    #cell_4 div {
+        width:10px; 
+        height: 100%;
+        float: right;
+        background: #ff2500;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_5{
+        padding: 0px;
+        border: 1px solid black;
+        border-bottom: 0px solid black;
+ 
+    }
+    #cell_5 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_6{
+        padding: 0px;
+        border: 1px solid black;
+        border-bottom: 0px solid black; 
+    }
+    #cell_6 div {
+        width:10px; 
+        height: 100%;
+        float: right;
+        background: #fffc00;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_7{
+        padding: 0px;
+        border: 1px solid black;
+        border-bottom: 0px solid black; 
+    }
+    #cell_7 div {
+        width:10px; 
+        height: 100%;
+        float: right;
+        background: #fffc00;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_8{
+        padding: 0px;
+        border: 1px solid black;
+        border-bottom: 0px solid black; 
+    }
+    #cell_8 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_9{
+        padding: 0px;
+        border: 1px solid black;
+        border-bottom: 0px solid black;
+        border-top: 0px solid black; 
+    }
+    #cell_9 div {
+        width:10px; 
+        height: 100%;
+        float: right;
+        background: #fffc00;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_10{
+        padding: 0px;
+        border: 1px solid black;
+        border-right:0px;
+    }
+    #cell_10 div {
+        height: 10px; 
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_11{
+        padding: 0px;
+        border: 1px solid black;
+    }
+    #cell_11 div {
+        position: relative;
+        padding-bottom: 0px;
+        height: 10px;
+        background: green; 
+  bottom: 0;
+  margin: 0 auto; 
+    }
+
+    #cell_12{
+        padding: 0px;
+        border: 1px solid black; 
+        border-left: 0px solid black; 
+    }
+    #cell_12 div {
+        height: 10px;
+        background: green;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #cell_13{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_13 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #cell_14{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_14 div {
+        height: 10px;
+        background: green;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_15{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_15 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_16{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_16 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_17{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_17 div {
+        height: 10px;
+        background: blue;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_18{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_18 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_19{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_19 div {
+        height: 10px;
+        background: blue;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_20{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_20 div {
+        height: 10px;
+        background: #00fdff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_21{
+        padding: 0px;
+        border: 1px solid black; 
+        border-top: 0px solid black;
+    }
+    #cell_21 div {
+        width:10px; 
+        height: 100%;
+        float: left;
+        background: #a74a44;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_22{
+        padding: 0px;
+        border: 1px solid black;
+        border-top: 0px solid black;
+        
+    }
+    #cell_22 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_23{
+        padding: 0px;
+        border: 1px solid black;
+        border-top: 0px solid black;
+    }
+    #cell_23 div {
+        width:10px; 
+        height: 100%;
+        float: left;
+        background: #a74a44;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_24{
+        padding: 0px;
+        border: 1px solid black;
+        border-top: 0px solid black;
+    }
+    #cell_24 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_25{
+        padding: 0px;
+        border: 1px solid black;
+        border-top: 0px solid black; 
+        
+    }
+    #cell_25 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_26{
+        padding: 0px;
+        border: 1px solid black;
+        border-top: 0px solid black;
+    }
+    #cell_26 div {
+        width:10px; 
+        height: 100%;
+        float: left;
+        background: #00fdff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_27{
+        padding: 0px;
+        border: 1px solid black;
+        border-top: 0px solid black;  
+    }
+    #cell_27 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_28{
+        padding: 0px;
+        border: 1px solid black;
+        border-top: 0px solid black;
+    }
+    #cell_28 div {
+        width:10px; 
+        height: 100%;
+        float: left;
+        background: #00fdff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_29{
+        padding: 0px;
+        border: 1px solid black;
+        border-top: 0px solid black;
+        border-bottom: 0px solid black;
+    }
+    #cell_29 div {
+        width:10px; 
+        height: 100%;
+        float: left;
+        background: #00fdff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_30{
+        padding: 0px;
+        border: 1px solid black;
+        border-left:0px;
+    }
+    #cell_30 div {
+        height: 10px;
+        background: #ffa900;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_31{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_31 div {
+        height: 10px;
+        background: #ff2c79;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_32{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_32 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_33{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_33 div {
+        height: 10px;
+        background: #ff2c79;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_34{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_34 div {
+        height: 10px;
+        background: #ff2c79;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_35{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_35 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_36{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_36 div {
+        height: 10px;
+        background: #ffa900;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_37{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_37 div {
+        height: 10px;
+        background: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_38{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_38 div {
+        height: 10px;
+        background: #ffa900;
+        margin: 0px;
+        padding: 0px;
+    }
+    #cell_39{
+        padding: 0px;
+        border: 1px solid black;
+        border-left: 0px solid black;
+    }
+    #cell_39 div {
+        height: 10px;
+        background: #ffa900;
+        margin: 0px;
+        padding: 0px;
+    } 
+    
+    .board-center {
+        width: 675px;
+        border: none;
+        vertical-align: bottom;
+        background-repeat: no-repeat;
+        background-size: auto 40px;
+    }
+    
+    .board-corner {
+        width: 102px;
+        height: 102px;
+    }
+    
+    .board-top {
+        width: 72px;
+        height: 102px;
+    }
+    
+    .board-bottom {
+        width: 72px;
+        height: 102px;
+    }
+    
+    .board-left {
+        width: 102px;
+        height: 72px;
+    }
+    
+    .board-right {
+        width: 102px;
+        height: 72px;
+    }
+
+    #bad-luck {
+        border: 1px solid #000; 
+    }
+    #true-false {
+        border: 1px solid #000; 
+    }
+    #chance {
+        border: 1px solid #000; 
+    }
+    #surprise {
+        border: 1px solid #000; 
+    }
+    #dashboard {
+        border: 1px solid #ccc; 
+        height: 270px;
+    }
+    #information-box{
+        color:white;
+        background-color: black;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #noteContent{
+        border-right: 1px solid #bbb;
+        border-bottom: 1px solid #bbb;
+        border-top: 1px solid #bbb;
+        height: 150px;
+        overflow: auto;
+        background-color: #ddd;
+        text-align: left;
+    }
+
+    #relative-actions{
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #actions-area{
+        align-content: right;
+    }
+
+    #current-player{ 
+        border-bottom: 1px solid #ccc; 
+    }
+    #dice-score{ 
+        //border-bottom: 1px solid #ccc; 
+    }
+
+    .pion_blue{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: blue;
+    }
+    .pion_red{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: red;
+    }
+    .pion_green{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: green;
+    }
+    .pion_yellow{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: yellow;
+    }
+    .pion_gray{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: gray;
+    }
+    .pion_maroon{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: maroon;
+    }
+    .pion_olive{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: olive;
+    }
+    .pion_silver{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: silver;
+    }
+    .pion_orange{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: orange;
+    }
+    .pion_brown{
+        width:20px;
+        height: 10px;
+        border: 1px solid #ccc; 
+        background-color: orange;
+    }
+
+    .owner_brown{
+        width:10px; 
+        height:10px; 
+        background: brown;
+        display: inline-flex;
+
+        background-image:-webkit-linear-gradient(top,brown 0%, brown 100%);
+        background-image: linear-gradient(to bottom, brown 0%, brown 100%);
+
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .owner_orange{
+        width:10px; 
+        height:10px; 
+        background: orange;
+        display: inline-flex;
+
+        background-image:-webkit-linear-gradient(top,orange 0%, orange 100%);
+        background-image: linear-gradient(to bottom, orange 0%, orange 100%);
+
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .owner_silver{
+        width:10px; 
+        height:10px; 
+        background: silver;
+        display: inline-flex;
+
+        background-image:-webkit-linear-gradient(top,silver 0%, silver 100%);
+        background-image: linear-gradient(to bottom, silver 0%, silver 100%);
+
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .owner_gray{
+        width:10px; 
+        height:10px; 
+        background: gray;
+        display: inline-flex;
+
+        background-image:-webkit-linear-gradient(top,gray 0%, gray 100%);
+        background-image: linear-gradient(to bottom, gray 0%, gray 100%);
+
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .owner_yellow{
+        width:10px; 
+        height:10px; 
+        background: yellow;
+        display: inline-flex;
+
+        background-image:-webkit-linear-gradient(top,yellow 0%, yellow 100%);
+        background-image: linear-gradient(to bottom, yellow 0%, yellow 100%);
+
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .owner_green{
+        width:10px; 
+        height:10px; 
+        background: green;
+        display: inline-flex;
+
+        background-image:-webkit-linear-gradient(top,green 0%, green 100%);
+        background-image: linear-gradient(to bottom, green 0%, green 100%);
+
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .owner_blue{
+        width:10px; 
+        height:10px; 
+        background: blue;
+        display: inline-flex;
+
+        background-image:-webkit-linear-gradient(top,blue 0%, blue 100%);
+        background-image: linear-gradient(to bottom, blue 0%, blue 100%);
+
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .owner_red{
+        width:10px; 
+        height:10px; 
+        background: #ff2500;
+        display: inline-flex;
+
+        background-image:-webkit-linear-gradient(top,red 0%, red 100%);
+        background-image: linear-gradient(to bottom, red 0%, red 100%);
+
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+}

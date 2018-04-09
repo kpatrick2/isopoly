@@ -1,0 +1,460 @@
+<ion-content padding >
+     
+    <ion-grid text-center id="board">
+        <ion-row class="row-aside">
+            <ion-col id="cell_10" class="cell-aside" >
+                <span class="pion_{{player.color}}" *ngFor="let player of board[10].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <img src="assets/imgs/court.png"> 
+            </ion-col>
+            <ion-col col-1 id="cell_11">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[11].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[11].title}}</label> 
+                <span class="owner_{{board[11].owner.color}}" ></span>
+            </ion-col>
+            <ion-col col-1 id="cell_12">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[12].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[12].title}}</label>
+                <span class="owner_{{board[12].owner.color}}" ></span>
+                <p class="price">{{board[12].value}} $</p>
+            </ion-col>
+            <ion-col col-1 id="cell_13">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[13].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[13].title}}</label> 
+                <span class="owner_{{board[13].owner.color}}" ></span>
+                <br>
+                <img src="assets/imgs/13.png">
+            </ion-col>
+            <ion-col col-1 id="cell_14">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[14].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[14].title}}</label>
+                <span class="owner_{{board[14].owner.color}}" ></span>
+                <p class="price">{{board[14].value}} $</p>
+            </ion-col>
+            <ion-col col-1 id="cell_15"> 
+                <span class="pion_{{player.color}}" *ngFor="let player of board[15].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[15].title}}</label>
+                <span class="owner_{{board[15].owner.color}}" ></span>
+                <br>
+                <img src="assets/imgs/15.png">
+            </ion-col>
+            <ion-col col-1 id="cell_16">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[16].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[16].title}}</label>
+                <span class="owner_{{board[16].owner.color}}" ></span>
+                <br>
+                <img src="assets/imgs/16.png">
+            </ion-col>
+            <ion-col col-1 id="cell_17">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[17].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[17].title}}</label>
+                <span class="owner_{{board[17].owner.color}}" ></span>
+                <p class="price">{{board[17].value}} $</p>
+            </ion-col>
+            <ion-col col-1 id="cell_18">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[18].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[18].title}}</label>
+                <span class="owner_{{board[18].owner.color}}" ></span>
+                <br>
+                <img src="assets/imgs/18.png">
+            </ion-col>
+            <ion-col col-1 id="cell_19">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[19].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[19].title}}</label>
+                <span class="owner_{{board[19].owner.color}}" ></span>
+                <br>
+                <img src="assets/imgs/19.png">
+            </ion-col>
+            <ion-col id="cell_20" class="cell-aside" >
+                <span class="pion_{{player.color}}" *ngFor="let player of board[20].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <img src="assets/imgs/iso.png" height="70px"> 
+            </ion-col>
+        </ion-row>
+          
+        <ion-row>
+            <ion-col col-2>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_9" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[9].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[9].title}}</label>
+                        <span class="owner_{{board[9].owner.color}}" ></span>
+                        <p class="price">{{board[9].value}} $</p>
+                    </ion-col> 
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_8" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[8].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[8].title}}</label>
+                        <span class="owner_{{board[8].owner.color}}" ></span>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_7" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[7].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[7].title}}</label>
+                        <span class="owner_{{board[7].owner.color}}" ></span>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_6" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[6].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[6].title}}</label>
+                        <span class="owner_{{board[6].owner.color}}" ></span>
+                        <p class="price">{{board[6].value}} $</p>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_5" class="cell-aside"> 
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[5].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span class="owner_{{board[5].owner.color}}" ></span>
+                        <br>
+                        <img src="assets/imgs/05.png"> 
+                        <br>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_4" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[4].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[4].title}}</label>
+                        <span class="owner_{{board[4].owner.color}}" ></span>
+                        <p class="price">{{board[4].value}} $</p>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_3" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[3].player; ">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[3].title}}</label>
+                        <span class="owner_{{board[3].owner.color}}" ></span>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_2" class="cell-aside">
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[2].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span class="owner_{{board[2].owner.color}}" ></span>
+                        <br>
+                        <img src="assets/imgs/02.png"> 
+                        <br>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_1" class="cell-aside">
+                        <div></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[1].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[1].title}}</label>
+                        <span class="owner_{{board[1].owner.color}}" ></span>
+                    </ion-col>
+                </ion-row>
+            </ion-col>
+            <ion-col col-8>
+                <br>
+                <!--<ion-row class="row-middle">        
+                    <ion-col col-2>&nbsp;</ion-col> 
+                    <ion-col col-3 id="bad-luck">
+                        <label class="title">Bad Luck</label><br>
+                        <img src="assets/imgs/badluck.png">
+                    </ion-col> 
+                    <ion-col col-2>&nbsp;</ion-col> 
+                    <ion-col col-3 id="true-false">
+                        <label class="title">True or False</label><br>
+                        <img src="assets/imgs/truefalse.png">
+                    </ion-col> 
+                    <ion-col col-2>&nbsp;</ion-col>                    
+                </ion-row> -->
+                <ion-row class="row-middle">                        
+                    <ion-col col-2>&nbsp;</ion-col> 
+                    <ion-col col-8 class="app-title"><label >ISOPOLY</label></ion-col>  
+                    <ion-col col-2>&nbsp;</ion-col>                         
+                </ion-row>
+                <br>
+                <ion-row class="row-middle">                        
+                    <ion-col col-2>&nbsp;</ion-col> 
+                    <ion-col col-8 class="project-info">
+                        <b>Project</b> : {{project.text}} <br>
+                        <b>Effort</b> : {{project.effort}} man/day |
+                        <b>Duration</b> : {{project.Duration}} days   <br>                   
+                        <b>Cost</b> : {{project.cost}} $ |
+                        <b>Min. quality</b> : {{project.minQuality}} defects
+                    </ion-col>  
+                    <ion-col col-2>&nbsp;</ion-col>                         
+                </ion-row>                
+                <!--<ion-row class="row-middle">                        
+                    <ion-col col-2>&nbsp;</ion-col> 
+                    <ion-col col-3 id="chance">
+                        <label class="title">Chance</label><br>
+                        <img src="assets/imgs/chance.png">
+                    </ion-col> 
+                    <ion-col col-2>&nbsp;</ion-col> 
+                    <ion-col col-3 id="surprise">
+                        <label class="title">Surprise</label><br>
+                        <img src="assets/imgs/surprise.png">
+                    </ion-col>  
+                    <ion-col col-2>&nbsp;</ion-col>                         
+                </ion-row>-->
+                <br>
+                <ion-row [hidden]="!showInformation">
+                    <ion-col col-1>&nbsp;</ion-col>
+                    <ion-col col-10 id="information-box" >
+                            {{information.Text}}
+                        <br>
+                    </ion-col>
+                    <ion-col col-1>&nbsp;</ion-col>
+                </ion-row>
+                <ion-row [hidden]="!showInformation">
+                    <ion-col col-1>&nbsp;</ion-col>
+                    <ion-col col-10 >
+                        <ion-list radio-group [(ngModel)]="quizResponse">
+                            <ion-item *ngFor="let option of information.Options;">
+                                <ion-label>{{option.Text}}</ion-label>
+                                <ion-radio value="{{option.IsAnswer}}"></ion-radio>
+                            </ion-item>
+                        </ion-list>      
+                        <br>
+                    </ion-col>
+                    <ion-col col-1>&nbsp;</ion-col>
+                </ion-row>
+                <ion-row [hidden]="!showInformation">
+                    <ion-col col-7>&nbsp;</ion-col>                    
+                    <ion-col col-5>
+                        <button ion-button (click)="checkResponse()" >Check Answer</button>
+                    </ion-col>
+                </ion-row>
+
+                <ion-row >
+                    <ion-col col-1>&nbsp;</ion-col>
+                    <ion-col col-10 id="dashboard">   
+                        <ion-row [hidden]="!dashboard_form">
+                            <ion-col col-8>
+                                <div id="noteContent" [innerHTML]="noteContent"></div>
+                                <div id="relative-actions" [innerHTML]="message"><ion-icon name="cash" style="zoom:1.5; color:brown"> </ion-icon></div> 
+                                <div id="actions-area">
+                                    <button ion-button (click)="buy($event)" [hidden]="!showBuyAction">Buy</button>
+                                    <button ion-button color="danger" (click)="endTurn($event)" [hidden]="!areDiceRolled">End turn</button>
+                                </div>
+                            </ion-col>
+                            <ion-col col-4> 
+                                <br>
+                                <div id="dice-score" [hidden]="!areDiceRolled">
+                                    <img src="assets/imgs/Die_{{die1}}.png"><img src="assets/imgs/Die_{{die2}}.png">
+                                </div>
+                                <div >
+                                    <button ion-button color="dark" (click)="rollDice($event)" [disabled] = "areDiceRolled">Roll dice </button> 
+                                </div>
+                                <br>
+                                <ion-row  *ngFor="let player of players; let i = index"> 
+                                        <ion-col col-2 [style.background-color]="player.color"></ion-col>
+                                        <ion-col col-5>{{player.name}}</ion-col>
+                                        <ion-col col-5>{{player.account}}$</ion-col> 
+                                </ion-row>
+                            </ion-col>
+                        </ion-row>
+                    </ion-col> 
+                    <ion-col col-1>&nbsp;</ion-col>
+                </ion-row>
+            </ion-col>
+            <ion-col col-2 >
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_21" class="cell-aside ">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[21].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[21].title}}</label>
+                        <span class="owner_{{board[21].owner.color}}" ></span>
+                        <p class="price">{{board[21].value}} $</p>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_22" class="cell-aside">     
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[22].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span class="owner_{{board[22].owner.color}}" ></span>
+                        <br>
+                        <img src="assets/imgs/13.png">
+                        <br>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_23" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[23].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[23].title}}</label>
+                        <span class="owner_{{board[23].owner.color}}" ></span>
+                        <p class="price">{{board[23].value}} $</p>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_24" class="cell-aside">
+                        <!-- <div ></div> -->
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[24].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[24].title}}</label>
+                        <span class="owner_{{board[24].owner.color}}" ></span>
+                        <p class="price">{{board[24].value}} $</p>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_25" class="cell-aside"> 
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[25].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        
+                        <span class="owner_{{board[25].owner.color}}" ></span>
+                        <br>
+                        <img src="assets/imgs/25.png">
+                        <br>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_26" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[26].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[26].title}}</label>
+                        <span class="owner_{{board[26].owner.color}}" ></span>
+                        <p class="price">{{board[26].value}} $</p>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_27" class="cell-aside">                        
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[27].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span class="owner_{{board[27].owner.color}}" ></span>
+                        <br>
+                        <img src="assets/imgs/27.png">
+                        <br>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_28" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[28].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[28].title}}</label>
+                        <span class="owner_{{board[28].owner.color}}" ></span>
+                        <p class="price">{{board[28].value}} $</p>
+                    </ion-col>
+                </ion-row>
+                <ion-row class="row-middle">
+                    <ion-col col-12 id="cell_29" class="cell-aside">
+                        <div ></div>
+                        <span class="pion_{{player.color}}" *ngFor="let player of board[29].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br>
+                        <label class="title">{{board[29].title}}</label>
+                        <span class="owner_{{board[29].owner.color}}" ></span>
+                        <p class="price">{{board[29].value}} $</p>
+                    </ion-col>
+                </ion-row>
+            </ion-col>
+        </ion-row>  
+        <ion-row class="row-aside">
+            <ion-col id="cell_0" class="cell-aside">
+                <span class="pion_{{player.color}}" *ngFor="let player of board[0].player">&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                <br>
+                <label class="title-corner">Start</label>
+            </ion-col>
+            <ion-col col-1 id="cell_39">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[39].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[39].title}}</label>
+                <span class="owner_{{board[39].owner.color}}" ></span>
+                <p class="price">{{board[39].value}} $</p>
+            </ion-col>
+            <ion-col col-1 id="cell_38">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[38].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[38].title}}</label>
+                <span class="owner_{{board[38].owner.color}}" ></span>
+                <p class="price">{{board[38].value}} $</p>
+            </ion-col>
+            <ion-col col-1 id="cell_37"> 
+                <span class="pion_{{player.color}}" *ngFor="let player of board[37].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="owner_{{board[37].owner.color}}" ></span>
+                <br>
+                <img src="assets/imgs/37.png">
+                <br>
+            </ion-col>
+            <ion-col col-1 id="cell_36">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[36].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[36].title}}</label>
+                <span class="owner_{{board[36].owner.color}}" ></span>
+                <p class="price">{{board[36].value}} $</p>
+            </ion-col>
+            <ion-col col-1 id="cell_35" > 
+                <span class="pion_{{player.color}}" *ngFor="let player of board[35].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="owner_{{board[35].owner.color}}" ></span>
+                <br>
+                <img src="assets/imgs/35.png">
+                <br>
+            </ion-col>
+            <ion-col col-1 id="cell_34">
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[34].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[34].title}}</label>
+                <span class="owner_{{board[34].owner.color}}" ></span>
+                <p class="price">{{board[34].value}} $</p>
+            </ion-col>
+            <ion-col col-1 id="cell_33" >
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[33].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[33].title}}</label>
+                <span class="owner_{{board[33].owner.color}}" ></span>
+                <p class="price">{{board[33].value}} $</p>
+            </ion-col>
+            <ion-col col-1 id="cell_32" >
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[32].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[32].title}}</label> 
+                <span class="owner_{{board[32].owner.color}}" ></span> 
+            </ion-col>
+            <ion-col col-1 id="cell_31" >
+                <div ></div>
+                <span class="pion_{{player.color}}" *ngFor="let player of board[31].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <label class="title">{{board[31].title}}</label>
+                <span class="owner_{{board[31].owner.color}}" ></span>
+                <p class="price">{{board[31].value}} $</p>
+            </ion-col>
+            <ion-col id="cell_30" class="cell-aside">  
+                <span class="pion_{{player.color}}" *ngFor="let player of board[30].player">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <br>
+                <img src="assets/imgs/gotocourt.png" height="70px"> 
+            </ion-col>
+        </ion-row>
+     
+    </ion-grid>
+
+</ion-content>

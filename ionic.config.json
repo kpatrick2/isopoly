@@ -1,0 +1,8 @@
+{
+  "name": "isopoly",
+  "app_id": "8125f488",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

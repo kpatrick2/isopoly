@@ -1,0 +1,1160 @@
+{
+    "badluck": [
+        {
+            "id": 1,
+            "Text": "When you installed the environment (server, tools, etc.), the work team did verify if all the tools were properly installed.#You lose 1 day.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -1,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 2,
+            "Text": "There are too many defects left. The customer is not happy with the quality of the software delivered.#2You have to hire Acme Testing  or you lose 10,000 $",
+            "BudgetVariation": -10000,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 3,
+            "Text": "There are too many defects. The customer is not happy with the quality of the software in development.#You have to hire Acme Defect Detection or you lose 8,000 $",
+            "BudgetVariation": -8000,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "HireDefectDetection"
+        },
+        {
+            "id": 4,
+            "Text": "You are a project manager of a project, you did not take the time to review the Statement of Work.#You lose 1,000$ of the budget",
+            "BudgetVariation": -1000,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 5,
+            "Text": "You are the technical leader and your team members did not have enough  time to get adequate training.#You lose 5 days on the project schedule to train the team members.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -5,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 6,
+            "Text": "You are the project manager and the members of your team did not have time to get adequate training.#You have to pay for one training session to Acme Training.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "HireTraining"
+        },
+        {
+            "id": 7,
+            "Text": "The members of your team did not have time to document their processes.#You lose 3 days.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -3,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 8,
+            "Text": "The members of your team did not have time to complete the documentation of one process.#Unless you have a Deployment Package, you lose 2 days.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -2,
+            "DefectVariation": 0,
+            "SpecialCase": "HasDeploymentPackage"
+        },
+        {
+            "id": 9,
+            "Text": "You are starting a new project and your analyst announced that he is leaving the company tomorrow.#You lose 10 days on the project schedule.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -10,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 10,
+            "Text": "Your Team Leader had an accident.#You lose 5 days of the project schedule or you hire a team leader.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -5,
+            "DefectVariation": 0,
+            "SpecialCase": "WantToHireTeamLeader"
+        },
+        {
+            "id": 11,
+            "Text": "You had a fire in the building. You found out that your team did not back-up your project in the repository.#You lose 10 days of the project schedule.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -10,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 12,
+            "Text": "The plumbing broke in your office and a few computers were damaged.#You find out that your team did not do the back-ups in the repository yesterday.#You lose 2 days of the project schedule.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -10,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 13,
+            "Text": "Your network was not protected adequately. An intruder erased the hard disk of all your computers.#You find out that your team did not do the back-ups in the repository.#You lose 10 days of the project.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -10,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 14,
+            "Text": "Someone stole all your computers.#You find out that your team did not do the back-ups in the repository.#You lose 10 days of the project.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -10,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 15,
+            "Text": "The project manager did not use the project plan to execute the project.#You lose 5 days of the project schedule.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -5,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 16,
+            "Text": "The customer is not happy with your software. He will go to court unless an auditor can demonstrate that the VSE has not been negligent.#You have to hire an Auditor. ",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "HireAuditor"
+        },
+        {
+            "id": 17,
+            "Text": "The project manager did not get the customer to sign the delivery instructions at the start of the project.#When you were ready to deliver the software to the customer, he asked for additional documents with no additional budget. If you do not deliver the additional documents, he will not pay the VSE for the software developed.#You lose 3,000 $",
+            "BudgetVariation": -3000,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 18,
+            "Text": "When you installed the environment (server, tools, etc.), the work team did verify if all the tools were properly installed.#You lose 2 days of the project schedule.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -2,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 19,
+            "Text": "You did not conduct a review of the requirements specifications. You detected the defects when testing the software.#You discovered 20 new defects, you lost 5 days. ",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -5,
+            "DefectVariation": "20",
+            "SpecialCase": "None"
+        },
+        {
+            "id": 20,
+            "Text": "You did not use a checklist when you reviewed the requirement specifications. The defects were detected when testing the software.#You discovered 20 new defects.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": "20",
+            "SpecialCase": "None"
+        },
+        {
+            "id": 21,
+            "Text": "You did not plan the development of the documentation of a project.#You lose 5,000 $",
+            "BudgetVariation": "5000",
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 22,
+            "Text": "As the project manager, you did not give enough time to the work team to estimate the effort required for this project. The effort was underestimated.#You lose 5 days on your schedule.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -5,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 23,
+            "Text": "You did not develop the templates for  the documentation required by the contract. The project starts tomorrow.#You loose 3 days.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -3,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 24,
+            "Text": "You did not baseline the documents of the project.#You loose 3 days.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -3,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 25,
+            "Text": "You are the team leader, you did not evaluate the risks of your project.#You loose 3 days.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -3,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id": 26,
+            "Text": "You did not select a methodology for your project.#You loose 4 days.",
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -4,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        }
+    ],
+    "chance":[
+        {
+            "id":1,
+            "Text":"You are a project manager of a project, you have done a good review of the Statement of Work#You get 1,000$ on your budget",
+            "BudgetVariation":1000,
+            "ProjectScheduleVariation":0,
+            "DefectVariation": 0 
+        },
+        {
+            "id":2,
+            "Text":"You are a project manager of a project, you have done a good review of the Statement of Work. You  were able to detect a few contradictions. He contacted the customer to clarify the issues.#You get 5,000$ on your budget",
+            "BudgetVariation":5000,
+            "ProjectScheduleVariation":0,
+            "DefectVariation": 0 
+        },
+        {
+            "id":3,
+            "Text":"You are a project manager of a project, you have done a good review of the Requirements.#You saved 5 days on the project schedule",
+            "BudgetVariation":0,
+            "ProjectScheduleVariation":5,
+            "DefectVariation": 0 
+        },
+        {
+            "id":4,
+            "Text":"You are a technical leader, your team has done a good review of the architecture.#You saved 2 days on the project schedule.",
+            "BudgetVariation":0,
+            "ProjectScheduleVariation":2,
+            "DefectVariation": 0 
+        },
+        {
+            "id":5,
+            "Text":"You had a fire in the building. Your team did the back-ups of the project in the repository yesterday.#You saved 3 days on the project schedule.",
+            "BudgetVariation":0,
+            "ProjectScheduleVariation":3,
+            "DefectVariation": 0 
+        },
+        {
+            "id":6,
+            "Text":"When the project manager planned the schedule of your project, he was wise enough to consider the risks. He added a management reserve.#You saved 2 days on the project schedule.",
+            "BudgetVariation":0,
+            "ProjectScheduleVariation":2,
+            "DefectVariation": 0 
+        },
+        {
+            "id":7,
+            "Text":"When the project manager planned the schedule of your project, the manager was wise enough to ask each member of the work team an estimate of the effort required for this project.#You had set aside a management reserve and you delivered one week before the deadline.#Your VSE gets a bonus of 2,000 $",
+            "BudgetVariation":2000,
+            "ProjectScheduleVariation":0,
+            "DefectVariation": 0 
+        },
+        {
+            "id":8,
+            "Text":"You have invested in your process.#You detected and corrected 10 defects.",
+            "BudgetVariation":0,
+            "ProjectScheduleVariation":0,
+            "DefectVariation": -10 
+        } 
+    ],
+    "communication":[
+        {
+            "id":1,
+            "Text": "Communication is very important to the success of a project. Which communications tasks are defined in ISO/IEC 29110 ?",
+            "Options": [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":2,
+            "Text": "It is important that the customer and the members of the work team are informed about the progress of the progress. #In ISO/IEC 29110, which document is used to report progress ?",
+            "Options":   [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":3,
+            "Text": "At the end of a project, the customer reviews the deliverables of the project and approves them.#In ISO/IEC 29110, what is the name of the document which records the approval of the customer ? ",
+            "Options":  [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":4,
+            "Text": "Once the plan has been approved, the customer is not involved in the project until the end of the project when he has to sign the acceptance record ?",
+            "Options":  [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        }
+    ],
+    "humanResource":[
+        {
+            "id":1,
+            "Text": "In which document of ISO/IEC 29110 are the roles of each member of the work team defined ?",
+            "Options":   [
+                    {
+                        "Text": "Contract",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "Statement of Work",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Project plan",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Progress status report",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":2,
+            "Text": "In ISO/IEC 29110, human resources are described in which document ?",
+            "Options":   [
+                    {
+                        "Text": "Contract",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "Statement of Work",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Project plan",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Progress status report",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":3,
+            "Text": "In ISO/IEC 29110, a person can play more than one role ? ",
+            "Options":   [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":4,
+            "Text": "In ISO/IEC 29110, a role can be played by more than one person ?",
+            "Options":  [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        }
+    ],
+    "management":[
+        {
+            "id":1,
+            "Text": "Which document is used to develop the project plan:",
+            "Options":  [
+                    {
+                        "Text": "Requirements specifications",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "Statement of Work (SOW)",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Contract",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Agreement between Project Manager and Customer",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Agreement between Project Manager and Team Leader",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":2,
+            "Text": "At the end of a project, you discover that 4 features – not defined in the SOW - have been added by the work team to the software delivered. #Which tasks of the process have not been executed ?",
+            "Options":  [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":3,
+            "Text": "During the execution of the project, a member of the work team asks the project manager the documents s/he has to write. #In ISO/IEC 29110, in which document  should you find the answer to this question ?",
+            "Options":  [
+                    {
+                        "Text": "Contract",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "Project plan",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Statement of Work",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Software configuration",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Delivery instructions",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":4,
+            "Text": "In ISO/IEC 29110, which document is the input to the project management process :",
+            "Options":   [
+                    {
+                        "Text": "Contract",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "Project plan",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Statement of Work",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Software configuration",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Delivery instructions",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":5,
+            "Text": "In ISO/IEC 29110, in which activity of the project management process do you evaluate a change request :",
+            "Options":   [
+                    {
+                        "Text": "Project Planning",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "Project Plan Execution",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Project Assessment and Control",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Project Closure ",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":6,
+            "Text": "In ISO/IEC 29110, which document is used to list the information about the version of the software components:",
+            "Options":   [
+                    {
+                        "Text": "Contract",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "Project plan",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Statement of Work",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Software configuration",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Delivery instructions",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":7,
+            "Text": "In ISO/IEC 29110, where do you store the documents related to a project ?",
+            "Options":   [
+                    {
+                        "Text": "In the computers of the members of the team",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "In the computer of the team leader",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "In the project repository",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "In the computer of the project manager  ",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":8,
+            "Text": "In ISO/IEC 29110, which document identifies the activities established to correct a deviation or problem concerning the accomplishment of a plan?",
+            "Options":   [
+                    {
+                        "Text": "Change request",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "Project plan",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Correction register",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Verification results",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Test report",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Validation results",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        },
+        {
+            "id":9,
+            "Text": "You’re the project manager. During the last revision meeting, the members of the work team reported that they were not able to meet the schedule.#In which document of ISO/IEC 29110 do you record this problem and the agreements ?",
+            "Options":   [
+                    {
+                        "Text": "Change request",
+                        "IsAnswer": "true"
+                    },
+                    {
+                        "Text": "Project plan",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Verification results",
+                        "IsAnswer": "false"
+                    },
+                    {
+                        "Text": "Meeting record",
+                        "IsAnswer": "false"
+                    }
+                ]
+            
+        }
+    ],
+    "projects":[
+        {
+            "id":1,
+            "text":"You have to develop the software for a new model of rice cooker",
+            "effort":20,
+            "Duration":10,
+            "cost": 20000,
+            "minQuality":5
+        },
+        {
+            "id":2,
+            "text":"You have to develop the software for a new model of washing machine",
+            "effort":30,
+            "Duration":10,
+            "cost": 30000,
+            "minQuality":7
+        },
+        {
+            "id":3,
+            "text":"You have to develop the software for a new model of dishwashing machine",
+            "effort":40,
+            "Duration":10,
+            "cost": 40000,
+            "minQuality":3
+        },
+        {
+            "id":4,
+            "text":"You have to develop the software for a new social networking web site",
+            "effort":30,
+            "Duration":10,
+            "cost": 40000,
+            "minQuality":1
+        },
+        {
+            "id":5,
+            "text":"You have to develop the software for a new document repository web site",
+            "effort":5,
+            "Duration":5,
+            "cost": 5000,
+            "minQuality":1
+        }
+    ],
+    "risk":[
+        {
+            "id":1,
+            "Text": "In ISO/IEC 29110, in which activity do you initially analyze the probability of a risk to occur and its impact ?",
+            "Options":   [
+                    {
+                        "Text": "Project Planning",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "Project Plan Execution",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Project Assessment and Control",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Project Closure  ",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":2,
+            "Text": "In ISO/IEC 29110, risks are identified only at the beginning of the project ?",
+            "Options":   [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":3,
+            "Text": "In ISO/IEC 29110, an analysis of a change request is a task related to the management of the risks of a project ?",
+            "Options":  [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":3,
+            "Text": "In ISO/IEC 29110, the review and approval of the requirements specification is a task related to the management of risks of a project?",
+            "Options":  [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":4,
+            "Text": "In ISO/IEC 29110, in which activity do you periodically analyze the probability of a risk to occur and its impact ?",
+            "Options":   [
+                    {
+                        "Text": "Project Planning",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "Project Plan Execution",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Project Assessment and Control",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Project Closure  ",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":5,
+            "Text": "According to ISO/IEC 29110, after the project plan has been approved, when should a VSE perform risk management tasks:",
+            "Options":   [
+                    {
+                        "Text": "Project Planning",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "Project Plan Execution",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Project Assessment and Control",
+                        "IsAnswer": false
+                    },
+                    {
+                        "Text": "Project Closure   ",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":6,
+            "Text": "According to ISO/IEC 29110, after the project plan has been approved, the customer is not involved in the project until he signs the acceptance record ?",
+            "Options":   [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":7,
+            "Text": "According to ISO/IEC 29110, once the risks have been documented in the project plan, there is no need to review the risks during the project assessment and control activity ?",
+            "Options":   [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        },
+        {
+            "id":8,
+            "Text": "According to ISO/IEC 29110, once the risks have been documented in the project plan, there is no need to review the risks during the progress revision meetings ?",
+            "Options":   [
+                    {
+                        "Text": "Yes",
+                        "IsAnswer": true
+                    },
+                    {
+                        "Text": "No",
+                        "IsAnswer": false
+                    }
+                ]
+            
+        }
+    ],
+    "surprise":[
+        {
+            "id":1,
+            "Text": "Go back 3 spaces !",
+            "CellVariation": -3,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":2,
+            "Text": "Advance to ‘Start’ and collect 2,000$ ",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "GoToStart"
+        },
+        {
+            "id":3,
+            "Text": "You were able to hire a consultant. He is an expert in your field#You pay the consultant 2,000$ and you save 5 days on the project!",
+            "CellVariation": 0,
+            "BudgetVariation": -2000,
+            "ProjectScheduleVariation": 5,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":4,
+            "Text": "Advance 5 spaces !",
+            "CellVariation": 5,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":5,
+            "Text": "Collect 2,000 $ ",
+            "CellVariation": 0,
+            "BudgetVariation": 2000,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":6,
+            "Text": "You forgot to buy insurance for your computers.#Buy insurance for 1,000 $ ",
+            "CellVariation": 0,
+            "BudgetVariation": 1000,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":7,
+            "Text": "You have detected 10 new defects during a review of the requirements.",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 10,
+            "SpecialCase": "None"
+        },
+        {
+            "id":8,
+            "Text": "A peer review detected 20 defects !",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 20,
+            "SpecialCase": "None"
+        },
+        {
+            "id":9,
+            "Text": "You save 5 days on the schedule !",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 5,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":10,
+            "Text": "Your customer is not happy, you have to travel to meet the customer.#You lose 3 days !",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -3,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":11,
+            "Text": "Your customer is not happy, you have  to meet the customer and answer his questions.#You lose 2 days !",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": -2,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":12,
+            "Text": "Your customer has reviewed your project plan and he is very happy.#You get a bonus of 3 days !",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 3,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":13,
+            "Text": "The president just hired a new employee who knows how to implement the Basic Profile.",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "BasicProfileKnowledge"
+        },
+        {
+            "id":14,
+            "Text": "A large organisation is investing in your VSE. Acme Process will implement the Basic Profile at no cost.",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": -3,
+            "SpecialCase": "BasicProfileKnowledge"
+        },
+        {
+            "id":15,
+            "Text": "Acme Auditors will audit your processes of the Basic Profile at no cost.",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "BasicProfileKnowledge"
+        },
+        {
+            "id":16,
+            "Text": "You were wise enough to develop a traceability matrix from requirements to tests. #You save 2 days on your project.",
+            "CellVariation": 0,
+            "BudgetVariation": 0,
+            "ProjectScheduleVariation": 2,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        },
+        {
+            "id":17,
+            "Text": "You developed a traceability matrix from requirements to tests. #Your customer is very happy to be able to follow the development of his new software.#You get a bonus of 2,000 $",
+            "CellVariation": 0,
+            "BudgetVariation": 2000,
+            "ProjectScheduleVariation": 0,
+            "DefectVariation": 0,
+            "SpecialCase": "None"
+        }
+    ],
+    "trueOrFalse": [
+        {
+            "id": 1,
+            "Text": "You are the project manager and  your customer calls you to request a change (after the project plan was approved)#You tell him that you can accept the change and then you tell your team to implement the change.",
+            "Answer": true
+        },
+        {
+            "id": 2,
+            "Text": "You are the project manager and  your customer calls you to request a change (after the project plan was approved)#You tell the customer that you have to do an impact analysis before you make a decision about the change request. ",
+            "Answer": true
+        },
+        {
+            "id": 3,
+            "Text": "An audit is a peer review ?",
+            "Answer": true
+        },
+        {
+            "id": 4,
+            "Text": "An audit is a peer review ?",
+            "Answer": true
+        },
+        {
+            "id": 5,
+            "Text": "The customer does not have to approve the project plan ?",
+            "Answer": true
+        },
+        {
+            "id": 6,
+            "Text": "The customer does not have to approve the project plan ?",
+            "Answer": true
+        },
+        {
+            "id": 7,
+            "Text": "The customer has to approve the requirements specifications ?",
+            "Answer": true
+        },
+        {
+            "id": 8,
+            "Text": "The meeting record documents the Customer acceptance of the Deliverables of the project ?",
+            "Answer": true
+        },
+        {
+            "id": 9,
+            "Text": "The meeting record records the agreements established with Customer and/or Work Team ?",
+            "Answer": true
+        },
+        {
+            "id": 10,
+            "Text": "The acceptance record documents the Customer acceptance of the Deliverables of the project ?",
+            "Answer": true
+        },
+        {
+            "id": 11,
+            "Text": "One objective of verification is to confirm, through the provision of objective evidence, that the requirements for a specific intended use or application have been fulfilled?",
+            "Answer": true
+        },
+        {
+            "id": 12,
+            "Text": "One objective of validation is to confirm, through the provision of objective evidence, that the requirements for a specific intended use or application have been fulfilled?",
+            "Answer": true
+        },
+        {
+            "id": 13,
+            "Text": "Verification is the process of evaluating a system or component to determine whether the products of a given development phase satisfy the conditions imposed at the start of that phase ?",
+            "Answer": true
+        },
+        {
+            "id": 14,
+            "Text": "Validation is the process of evaluating a system or component to determine whether the products of a given development phase satisfy the conditions imposed at the start of that phase ?",
+            "Answer": true
+        },
+        {
+            "id": 15,
+            "Text": "The Project Management Process has the following activities:#Project Planning#Project Plan Execution#Project Assessment and Control#Project Closure",
+            "Answer": true
+        },
+        {
+            "id": 16,
+            "Text": "The Project Management Process has the following activities:#Project Planning#Project Plan Execution#Project Assessment and Control",
+            "Answer": true
+        },
+        {
+            "id": 17,
+            "Text": "The correction register identifies activities established to correct a deviation or problem concerning the accomplishment of a plan ?",
+            "Answer": true
+        },
+        {
+            "id": 18,
+            "Text": "When you implement ISO/IEC 29110 you must use the Deployment Packages ?",
+            "Answer": true
+        },
+        {
+            "id": 19,
+            "Text": "You have to write a maintenance document for a all projects ?",
+            "Answer": true
+        },
+        {
+            "id": 20,
+            "Text": "In ISO/IEC 29110, Very Small Entities (VSEs) are organizations having up to 25 developers ?",
+            "Answer": true
+        },
+        {
+            "id": 21,
+            "Text": "In ISO/IEC 29110, traceability means tracing errors to the programmer ?",
+            "Answer": true
+        },
+        {
+            "id": 22,
+            "Text": "In ISO/IEC 29110, the traceability record is initiated at the end of the projects when all the tests are passed?",
+            "Answer": true
+        },
+        {
+            "id": 23,
+            "Text": "In ISO/IEC 29110, backward traceability is initiated at the end of a project ?",
+            "Answer": true
+        },
+        {
+            "id": 24,
+            "Text": "In ISO/IEC 29110, a deployment package may describe a specific method ?",
+            "Answer": true
+        },
+        {
+            "id": 25,
+            "Text": "In ISO/IEC 29110, the traceability record documents the relationship among the requirements included in the Requirements Specification, Software Design elements, Software Components, Test Cases and Test Procedures ?",
+            "Answer": true
+        },
+        {
+            "id": 26,
+            "Text": "In ISO/IEC 29110, Software Components are a set of related code units ?",
+            "Answer": true
+        },
+        {
+            "id": 27,
+            "Text": "In ISO/IEC 29110, Software Configuration is the set of code units?",
+            "Answer": true
+        },
+        {
+            "id": 28,
+            "Text": "In ISO/IEC 29110, the customer approves the requirements ?",
+            "Answer": true
+        },
+        {
+            "id": 29,
+            "Text": "In ISO/IEC 29110, the test cases and test procedures are developed after the construction activity ?",
+            "Answer": true
+        },
+        {
+            "id": 30,
+            "Text": "In ISO/IEC 29110, there is no need to identify the version of the tools used during a project ?",
+            "Answer": true
+        },
+        {
+            "id": 31,
+            "Text": "In ISO/IEC 29110, the project repository could be stored in the cloud ?",
+            "Answer": true
+        },
+        {
+            "id": 32,
+            "Text": "‘ISO’ is an acronym and its meaning is International Standard Organization ?",
+            "Answer": true
+        },
+        {
+            "id": 33,
+            "Text": "‘ISO’ comes from the Greek word ‘ISOS’ and is used to represent International Organization for Standardization ?",
+            "Answer": true
+        }
+    ]
+}
