@@ -1,1 +1,1 @@
-# isopoly
+# monopoly to learn ISO normes
